@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · QuikShort</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt="">QuikShort</a>
+    <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </div>
+</header>
+
+<main class="wrap doc">
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: October 15, 2026</p>
+
+  <p>QuikShort ("QuikShort", "we") is a desktop application for Windows that helps you turn trending
+    content into YouTube Shorts and post them to your own YouTube channel. This policy explains what
+    information the app uses, where it goes, and how you control it.</p>
+
+  <p class="note"><strong>The short version:</strong> QuikShort runs entirely on your computer. We don't operate
+    servers, we don't have user accounts, and we never receive your data. The app talks directly to the
+    services you connect (such as Google/YouTube and Anthropic) using your own credentials.</p>
+
+  <h2>1. Information the app uses</h2>
+  <div class="table-scroll">
+  <table>
+    <tr><th>Information</th><th>Why</th><th>Where it's kept</th></tr>
+    <tr><td>Your Google OAuth sign-in token for YouTube</td><td>To upload videos you approve, read their statistics, and update your channel description</td><td>Only on your computer</td></tr>
+    <tr><td>Your YouTube channel name, uploaded video IDs, and their view and like counts</td><td>To show analytics in the app and choose better posting times</td><td>Only on your computer</td></tr>
+    <tr><td>API keys you enter (Anthropic, Reddit, Twitch, X, Discord)</td><td>To connect to those services on your behalf</td><td>Only on your computer, in the app's settings file</td></tr>
+    <tr><td>Public posts and clips found on the sources you enable, and the videos the app edits from them</td><td>To create Shorts for your review</td><td>Only on your computer; videos are deleted automatically after upload or rejection</td></tr>
+    <tr><td>App logs and API usage counts</td><td>To show you what the app is doing and what it costs</td><td>Only on your computer</td></tr>
+  </table>
+  </div>
+
+  <h2>2. Google and YouTube data</h2>
+  <p>When you click <strong>Connect YouTube</strong>, you sign in with Google and grant QuikShort these
+    permissions:</p>
+  <ul>
+    <li><code>youtube.upload</code>: to upload the videos you approve to your channel.</li>
+    <li><code>youtube</code>: to read statistics for videos QuikShort uploaded and to update your channel
+      description if you leave that feature on.</li>
+  </ul>
+  <p>QuikShort uses this access only to provide those features to you. It does not delete videos, read
+    your comments or messages, use your Google data for advertising, sell it, or transfer it to anyone
+    else, and no person reads it. Your Google data is never sent to Anthropic or any other service.</p>
+  <p>QuikShort's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+    Policy</a>, including the Limited Use requirements.</p>
+  <p>QuikShort uses YouTube API Services. By using QuikShort's YouTube features you agree to the
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of your
+    information is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  <p>You can disconnect QuikShort from your Google account at any time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>3. Services the app sends data to, at your direction</h2>
+  <p>QuikShort connects directly from your computer to the services you set up. Each handles data under its
+    own privacy policy.</p>
+  <ul>
+    <li><strong>Anthropic (Claude API)</strong>: to screen candidates and write titles, descriptions and
+      hashtags, the app sends the public post's title or text, its creator's public username, a transcript
+      of the clip's audio, and for still images, the image. It does not send your Google data or personal
+      information. <a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a>.</li>
+    <li><strong>YouTube</strong>: the videos you approve, with their title, description and tags.</li>
+    <li><strong>Discord</strong> (optional): notifications to your own Discord direct messages, including video
+      titles, descriptions, previews and, in manual posting mode, the finished videos.</li>
+    <li><strong>Reddit, Twitch and X</strong> (optional): search requests for trending public content, made with
+      your own API keys. QuikShort only reads from these services and never posts to them.</li>
+  </ul>
+
+  <h2>4. Storage and security</h2>
+  <p>Everything QuikShort stores stays on your computer: settings and keys in the QuikShort folder, and the
+    database, logs and videos in your Windows user profile (the <code>QuikShort</code> folder in your user profile). Keep your
+    computer and these files secure, as anyone with access to them could use your connected accounts.</p>
+
+  <h2>5. Retention and deletion</h2>
+  <ul>
+    <li>Edited videos are deleted automatically two days after upload, or when you reject them.</li>
+    <li>Statistics and logs stay on your computer until you delete them.</li>
+    <li>To delete everything, quit QuikShort, then delete the QuikShort folder and
+      the <code>QuikShort</code> folder in your user profile, and revoke access in your Google account as described above.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>QuikShort is not directed at children under 13 and is intended for people who can lawfully operate a
+    YouTube channel.</p>
+
+  <h2>7. Changes</h2>
+  <p>If this policy changes, we'll update it on this page and change the date at the top.</p>
+
+  <h2>8. Contact</h2>
+  <p>Questions about this policy: <a href="mailto:khuser.biz@gmail.com">khuser.biz@gmail.com</a></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="./">Home</a><a href="terms.html">Terms of Service</a>
+    <p>© 2026 QuikShort. QuikShort is not affiliated with or endorsed by YouTube, Google, Reddit, Twitch, X or Discord.</p>
+  </div>
+</footer>
+</body>
+</html>
